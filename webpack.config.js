@@ -2,7 +2,9 @@ var webpack = require('webpack');
 var path = require('path');
 
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
+//The APP_DIR holds the directory path of the React application's codebase and the
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
+//BUILD_DIR represents the directory path of the bundle file output.
 var PUBLIC_PATH = 'http://localhost:8080';
 
 var config = {
